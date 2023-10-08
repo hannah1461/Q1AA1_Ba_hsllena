@@ -1,0 +1,53 @@
+.banner{
+    background-image: url(meeee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99.1vw;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.banner h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10.7vh;
+    color: rgb(15, 146, 48);
+    text-shadow: 1.5px 1.5px black;
+    text-align: center;
+    padding-top: 10.7vh;
+}
+
+.banner h1 span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(205, 181, 48);
+}
+
+.banner p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #dfdf15;
+    text-shadow: 1.5px 1.5px rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 6.45vh;
+    margin-bottom: 20px;
+}
+
+.banner a{
+    padding: 10px;
+    font-size: 2vh;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, #90A955, #4F772D);
+    opacity: 0.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.banner a:hover{
+    color: white;
+    background-image: linear-gradient(to bottom right, #90A955, #4F772D);
+    opacity: 1;
+    transition: 0.2s;
+
+}

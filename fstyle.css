@@ -1,0 +1,39 @@
+.footer{
+    height: 9.5vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #386641,#6A994E);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    border-top: 1px solid black;
+}
+
+
+.coplnk{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 10vw;
+    font-size: 2vh;
+}
+
+.imglnk{
+    text-align: right;
+    padding-right: 12vw;
+    margin-bottom: 100px;
+}
+
+.brand{
+    display: inline;
+    border-radius: 100px;
+    position: static;
+    height: 5vh;
+    
+}
+
+.imglnk a:hover{
+    background-image: linear-gradient(to bottom, black, beige);
+    transition: 1s;
+}
